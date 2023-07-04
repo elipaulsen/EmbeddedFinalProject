@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController">
+   <children>
+      <Label alignment="CENTER" layoutX="224.0" layoutY="14.0" text="SWD EXCHANGE COMPUTATION">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="201.0" text="Current Exchange Rate">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="274.0" text="1.00      =">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="exchangeRateText" layoutX="506.0" layoutY="274.0" text="1.00">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="240.0" text="USD">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="504.0" layoutY="240.0" text="SWD">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="54.0" text="Account Creation" />
+      <TextField fx:id="acctName" layoutX="14.0" layoutY="71.0" prefHeight="26.0" prefWidth="145.0" promptText="enter account name">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="createAcct" layoutX="168.0" layoutY="71.0" mnemonicParsing="false" onAction="#newAccount" prefHeight="26.0" prefWidth="76.0" text="Create">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="selectAcct" disable="true" layoutX="168.0" layoutY="126.0" mnemonicParsing="false" onAction="#accountChose" prefHeight="26.0" prefWidth="76.0" text="Select">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="16.0" layoutY="110.0" text="Select an Account" />
+      <Button fx:id="submitNewRate" layoutX="395.0" layoutY="163.0" mnemonicParsing="false" onAction="#changeRate" prefHeight="26.0" prefWidth="110.0" text="Change Rate">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="374.0" layoutY="89.0" text="Change Exchange Rate" />
+      <TextField fx:id="newRate" layoutX="378.0" layoutY="113.0" prefHeight="26.0" prefWidth="145.0" promptText="ENTER NEW RATE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Label layoutX="361.0" layoutY="139.0" text="the amount of swd that will equal 1 usd">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="68.0" text="Initialize Balance USD" />
+      <TextField fx:id="depositUSDtext" layoutX="615.0" layoutY="85.0" prefHeight="26.0" prefWidth="145.0" promptText="enter amount in USD">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="depUSD" disable="true" layoutX="769.0" layoutY="85.0" mnemonicParsing="false" onAction="#initializeBalance" prefHeight="26.0" prefWidth="76.0" text="Initialize">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="619.0" layoutY="132.0" text="Withdrawal SWD" />
+      <TextField fx:id="withdrawalSWDtext" layoutX="617.0" layoutY="149.0" prefHeight="26.0" prefWidth="145.0" promptText="enter amount in SWD">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="withdrawalSWD" disable="true" layoutX="771.0" layoutY="149.0" mnemonicParsing="false" onAction="#withDrawalSwd" prefHeight="26.0" prefWidth="95.0" text="withdrawal">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="619.0" layoutY="190.0" text="Withdrawal USD" />
+      <TextField fx:id="withdrawalUSDtext" layoutX="617.0" layoutY="207.0" prefHeight="26.0" prefWidth="145.0" promptText="enter amount in USD">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="withdrawalUSD" disable="true" layoutX="771.0" layoutY="207.0" mnemonicParsing="false" onAction="#withDrawalUsd" prefHeight="26.0" prefWidth="95.0" text="withdrawal">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="110.0" layoutY="232.0" text="Change Return" />
+      <Label layoutX="348.0" layoutY="320.0" prefHeight="43.0" prefWidth="233.0" text="ACCOUNT BALANCE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="balance" alignment="CENTER" layoutX="308.0" layoutY="387.0" prefHeight="50.0" prefWidth="286.0" text="\$ --">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="306.0" text="*this is a rounded representation of exchange rate">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="accountChoiceBox" disable="true" layoutX="14.0" layoutY="126.0" prefHeight="16.0" prefWidth="145.0" />
+      <TextArea fx:id="changeGiver" layoutX="19.0" layoutY="247.0" prefHeight="342.0" prefWidth="286.0" />
+      <Button fx:id="deletedAcct" layoutX="773.0" layoutY="520.0" mnemonicParsing="false" onAction="#deleteAccount" prefHeight="26.0" prefWidth="76.0" text="Delete">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="621.0" layoutY="504.0" text="Select an Account" />
+      <ChoiceBox fx:id="deleteBox" layoutX="619.0" layoutY="520.0" prefHeight="16.0" prefWidth="145.0" />
+      <Label layoutX="622.0" layoutY="478.0" text="Account Deletion" />
+   </children>
+</AnchorPane>
