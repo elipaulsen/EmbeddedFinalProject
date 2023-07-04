@@ -10,48 +10,48 @@ public class InputBuffer {
    
    // place value into buffer
    public synchronized void blockingPut(double[] values)
-      throws InterruptedException {               
+    throws InterruptedException {               
    
-      // wait until buffer has space available, then write value; 
-      // while no empty locations, place thread in blocked state  
-      while (occupiedCells == buffer.length) {
-         wait(); // wait until a buffer cell is free
-      }                                            
+    // wait until buffer has space available, then write value; 
+    // while no empty locations, place thread in blocked state  
+    while (occupiedCells == buffer.length) {
+     wait(); // wait until a buffer cell is free
+    }                                            
 
-      buffer[writeIndex] = values; // set new buffer value
+    buffer[writeIndex] = values; // set new buffer value
 
-      // update circular write index
-      writeIndex = (writeIndex + 1) % buffer.length;
+    // update circular write index
+    writeIndex = (writeIndex + 1) % buffer.length;
 
-      ++occupiedCells; // one more buffer cell is full
-      notifyAll(); // notify threads waiting to read from buffer
+    ++occupiedCells; // one more buffer cell is full
+    notifyAll(); // notify threads waiting to read from buffer
    }
-    
+  
    // return value from buffer
    public synchronized double[] blockingGet() throws InterruptedException {
-      // wait until buffer has data, then read value;
-      // while no data to read, place thread in waiting state
-      while (occupiedCells == 0) {
-         wait(); // wait until a buffer cell is filled
-      } 
+    // wait until buffer has data, then read value;
+    // while no data to read, place thread in waiting state
+    while (occupiedCells == 0) {
+     wait(); // wait until a buffer cell is filled
+    } 
 
-      double[] readValue = buffer[readIndex]; // read value from buffer
+    double[] readValue = buffer[readIndex]; // read value from buffer
 
-      // update circular read index
-      readIndex = (readIndex + 1) % buffer.length;
+    // update circular read index
+    readIndex = (readIndex + 1) % buffer.length;
 
-      --occupiedCells; // one fewer buffer cells are occupied
-      notifyAll(); // notify threads waiting to write to buffer
+    --occupiedCells; // one fewer buffer cells are occupied
+    notifyAll(); // notify threads waiting to write to buffer
 
-      return readValue;
+    return readValue;
    }
 
    public double[][] getBuffer() {
-      return buffer;
+    return buffer;
    }
 
    public boolean isEmpty() {
-      return occupiedCells == 0;
+    return occupiedCells == 0;
    }
 }
 
