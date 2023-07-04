@@ -1,0 +1,287 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 12 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2
+valu
+Z1 !s110 1681684128
+!i10b 1
+!s100 ?FYPeRc<O_A68BlhmbGOi1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjYbSgXJ2fD>F]nRUhf1QX3
+R0
+Z3 w1681683948
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/alu.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/alu.v
+!i122 0
+L0 6 165
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OP;L;2020.3;71
+r1
+!s85 0
+31
+Z6 !s108 1681684128.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/alu.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/alu.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vbr
+R1
+!i10b 1
+!s100 >VMbEzMU9SmF^SD]BcS972
+R2
+Ic<TCJU[<H?E`I[gR3^ii50
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/br.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/br.v
+!i122 1
+L0 6 40
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/br.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/br.v|
+!i113 1
+R7
+R8
+vctrl
+Z9 !s110 1681684129
+!i10b 1
+!s100 kR?8PNL98Wd=2EB3fX=0B2
+R2
+InM7e2^6If[::Bl42gCaGB0
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ctrl.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ctrl.v
+!i122 2
+L0 8 191
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ctrl.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ctrl.v|
+!i113 1
+R7
+R8
+vim
+R9
+!i10b 1
+!s100 >3?gDEl2GB3@@laE7ZIRR0
+R2
+IYcWEm4Y7o[KbY_cfROJlJ1
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/im.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/im.v
+!i122 3
+L0 6 32
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1681684129.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/im.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/im.v|
+!i113 1
+R7
+R8
+vir
+R9
+!i10b 1
+!s100 Y=ZB>@]hoFbXD1D`4MBBO3
+R2
+I[0^9QT^5af@beC1FdQ>Rg3
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ir.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ir.v
+!i122 4
+Z11 L0 6 36
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ir.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/ir.v|
+!i113 1
+R7
+R8
+vmux32
+Z12 !s110 1681684130
+!i10b 1
+!s100 :X@CNUBVz0Z;aCJ_OFS[b2
+R2
+IP3`F1n;QnKe0bH4Mf9=V72
+R0
+Z13 w1681683947
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux32.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux32.v
+!i122 6
+L0 6 33
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1681684130.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux32.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux32.v|
+!i113 1
+R7
+R8
+vmux4
+R12
+!i10b 1
+!s100 RE<We:R5;YY3KVTVmMe_A2
+R2
+I<f<CL356@kcA]1feg8eY43
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux4.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux4.v
+!i122 5
+L0 6 31
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux4.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/mux4.v|
+!i113 1
+R7
+R8
+vpc
+R12
+!i10b 1
+!s100 UdNg0Qb6o=;7cG4<IKYf<2
+R2
+Ie16TIXcN1_P8b2LhXz4;=2
+R0
+R13
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/pc.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/pc.v
+!i122 7
+L0 6 50
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/pc.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/pc.v|
+!i113 1
+R7
+R8
+vrf
+Z15 !s110 1681684131
+!i10b 1
+!s100 8XAjmi[>K`TmI[OID@j8L0
+R2
+IGgecl0S60^HY=>@_bdcLn3
+R0
+R13
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/rf.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/rf.v
+!i122 8
+L0 6 66
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1681684131.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/rf.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/rf.v|
+!i113 1
+R7
+R8
+vsisc
+R15
+!i10b 1
+!s100 oWoRONbklZkH6>`hFTh`^2
+R2
+IN;L0PZjc0UA]TSQjTi]6b1
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc.v
+!i122 9
+L0 6 52
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc.v|
+!i113 1
+R7
+R8
+vsisc_tb
+R15
+!i10b 1
+!s100 oDlPMehULl8@7^2S>gK3Z1
+R2
+I@ogNHL>JQN1lW<QM:YOVH3
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc_tb_p2.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc_tb_p2.v
+!i122 10
+R11
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc_tb_p2.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/sisc_tb_p2.v|
+!i113 1
+R7
+R8
+vstatreg
+!s110 1681684132
+!i10b 1
+!s100 MJkL87QlS:::zz=oZ=a3h3
+R2
+IE0zWEHYhiSOBU<fE;NN7_0
+R0
+R3
+8//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/statreg.v
+F//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/statreg.v
+!i122 11
+L0 6 34
+R4
+R5
+r1
+!s85 0
+31
+!s108 1681684132.000000
+!s107 //iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/statreg.v|
+!s90 -reportprogress|300|-work|work|//iowa.uiowa.edu/shared/engineering/home/eplsn/windowsdata/Desktop/p2/statreg.v|
+!i113 1
+R7
+R8

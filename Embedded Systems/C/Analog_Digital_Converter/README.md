@@ -1,0 +1,3 @@
+# ADC / DAC with Serial Communication
+built a remote-controlled analog signal measurement and generation system using the built-in A/D converter of the ATmega328P controller along with the MAX618. The MAX618 is an external two-channel D/A converter with an I2C interface. The system has an RS232 interface that will allow the computer to trigger analog voltage measurements and set the output voltage for both channels of the DAC through commands sent through the RS232 interface. 
+#
