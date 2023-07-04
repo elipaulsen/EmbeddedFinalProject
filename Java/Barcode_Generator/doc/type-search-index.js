@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Postnet_Generator"},{"p":"<Unnamed>","l":"Postnet_Reader"},{"p":"<Unnamed>","l":"UPCA_Decoder"},{"p":"<Unnamed>","l":"UPCA_Encoder"}];updateSearchResults();
